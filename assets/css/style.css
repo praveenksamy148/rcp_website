@@ -248,6 +248,11 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
+  color: #013289;
+}
+
+.navbar a:hover,
+.navbar li:hover>a {
   color: #4154f1;
 }
 
@@ -1526,7 +1531,6 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
   transition: 0.3s;
 }
 
