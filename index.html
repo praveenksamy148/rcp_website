@@ -38,7 +38,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+<!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
@@ -49,24 +49,36 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#">Home</a></li>
+          <li><a class="nav-link scrollto " href="">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+		  <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">STEM Tutoring</a></li>
-              <li><a href="#">Test Prep</a></li>
-              <li><a href="#">College Counseling</a></li>
+              <li class="dropdown"><a href="#"><span>Tutoring</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">STEM Courses</a></li>
+                  <li><a href="#">SAT/ACT Prep</a></li>
+                </ul>
+              </li>
+			  <li class="dropdown"><a href="#"><span>College Counseling</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">College Strategy</a></li>
+                  <li><a href="#">Essay Services</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <li><a class="getstarted scrollto" href="contact.html">Contact</a></li>
+          
+          <li><a class="getstarted scrollto" href="contact.html">Contact Us!</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-    </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+    </div>
+  </header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
 
     <div class="container">
@@ -76,8 +88,12 @@
           <h2 data-aos="fade-up" data-aos-delay="400">Let us help simplify the process.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
+              <a href="about.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>About Us</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+				<a href="services.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Services</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -89,10 +105,11 @@
       </div>
     </div>
 
-  </section><!-- End Hero -->
+  </section>
+<!-- End Hero -->
 
   <main id="main">
-	  <!-- ======= Features Section ======= -->
+<!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
       <div class="container" data-aos="fade-up">
@@ -159,8 +176,10 @@
 
       </div>
 
-    </section><!-- End Features Section -->
-    <!-- ======= About Section ======= -->
+    </section>
+<!-- End Features Section -->
+	  
+<!-- ======= About Section ======= -->
     <section id="about" class="about">
 
       <div class="container" data-aos="fade-up">
@@ -178,10 +197,6 @@
                   <span>Learn More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
-				<a href="contact.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Get in Touch</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -193,9 +208,10 @@
         </div>
       </div>
 
-    </section><!-- End About Section -->
+    </section>
+<!-- End About Section -->
 	  
-    <!-- ======= Counts Section ======= -->
+<!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
 
@@ -235,9 +251,10 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section>
+<!-- End Counts Section -->
 	 
-	     <!-- ======= Clients Section ======= -->
+<!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
 
       <div class="container" data-aos="fade-up">
@@ -259,15 +276,17 @@
         </div>
       </div>
 
-    </section><!-- End Clients Section -->
+    </section>
+<!-- End Clients Section -->
 	 
-	     <!-- ======= Testimonials Section ======= -->
+<!-- ======= Testimonials Section ======= -->
+<!--
     <section id="testimonials" class="testimonials">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2  style = "font-size:30px;">Testimonials</h2>
+          <h2 style = "font-size:30px;">Testimonials</h2>
         </header>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -286,7 +305,7 @@
                   <h4>Ceo &amp; Founder</h4>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -301,7 +320,7 @@
                   <h4>Designer</h4>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -316,7 +335,7 @@
                   <h4>Store Owner</h4>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -324,9 +343,11 @@
 
       </div>
 
-    </section><!-- End Testimonials Section -->
+    </section>
+-->
+<!-- End Testimonials Section -->
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
